@@ -36,10 +36,10 @@ qlabs = QuanserInteractiveLabs();
 connection_established = qlabs.open('localhost');
 
 if connection_established == false
-    disp("Failed to open connection.")
+    disp("Failed to open connection. Are you sure Quanser QLab is running ?")
     return
 end
-disp('Connected')
+disp('Connected to Quanser Qlab?')
 verbose = true;
 num_destroyed = qlabs.destroy_all_spawned_actors();
 

@@ -60,6 +60,8 @@ num_destroyed = qlabs.destroy_all_spawned_actors();
 %     hFloor0.spawn_id(8, [-0.6,-0.6,   0], [0,0, pi/2], [1,1,1], 5, false);
 % end
 
+% un commentaire ici
+
 % Définir les Waypoints [x, y, theta]
 waypoints = [
     0,    0,    0;          % Point de départ

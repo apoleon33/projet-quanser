@@ -16,7 +16,7 @@ if ispc  % Windows is not case-sensitive
 else
   onPath = any(strcmp(newPathEntry, pathCell));
 end
-
+   
 if onPath == 0
     path(path, newPathEntry)
     savepath
